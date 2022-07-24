@@ -1,0 +1,47 @@
+.body{
+  display: grid;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-heder{
+
+}
+
+.heder-navigation-wrap{
+  background-color: #FFE17F;
+  width: 1160px;
+  height: 300px;
+  margin-top: 40px;
+  margin-inline: 140px;
+ }
+
+.heder-top{
+display: flex;
+width: 1040px;
+height: 40px;
+}
+
+.navigation-list{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-inline: 60px;
+ }
+
+.heder-menu {
+  display: flex;
+  width: 1040px;
+  height: 50px;
+  justify-content: space-between;
+  padding-inline: 60px;
+}
