@@ -45,3 +45,39 @@ height: 40px;
   justify-content: space-between;
   padding-inline: 60px;
 }
+
+.heder-bottom{
+  display: flex;
+}
+.slider{
+  background-color: transparent;
+  width: 560xp;
+  margin-left: 140px;
+  }
+
+.slider-link{
+  background-color: #FFE17F;
+}
+
+.discription{
+display: flex;
+}
+
+.category{
+  display: flex;
+  width: 1160px;
+  margin-inline: 140px;
+  justify-content: space-between;
+}
+
+.category-item{
+  min-width: 160px;
+  min-height: 253px;
+}
+
+.category-picture{
+  background-color: #FFE17F;
+  width: 97px;
+  height: 55px;
+  padding: 53px 31px;
+}
