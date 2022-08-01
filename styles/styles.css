@@ -278,6 +278,12 @@ height: 319px;
   height: 319px;
  }
 
+ .container{
+display: flex;
+width: 694px;
+height: 174px;
+}
+
  .property-title{
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -292,9 +298,12 @@ font-weight: 400;
 font-size: 18px;
 line-height: 30px;
 color: #444444;
+width: 452px;
+height: 90px;
  }
 
  .property-decoration{
   width: 136px;
   height: 164px;
- }
+  margin-top: 72px;
+  }
