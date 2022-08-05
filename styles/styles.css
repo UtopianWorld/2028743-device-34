@@ -473,7 +473,22 @@
   display: flex;
   align-items: center;
   padding-inline: 20px;
-  border-color: #1A1A1A;
+  border-color:#FFFFFF;
+  justify-content:space-between; 
+}
+
+.tooltip-item:active{
+   opacity: 0.3;
+}
+.cart-item{
+  display: flex;
+  width: 223px;
+  height: 47px;
+}
+.tlp-item:hover,
+.tlp-item:focus-visible{
+  opacity: 0.6;
+  border: 2px solid #AF4FFF;
 }
 
 .tooltip-pic {
@@ -501,6 +516,19 @@
   margin-bottom: 54px;
 }
 
+.cart-dell:active{
+  opacity: 0.3;
+}
+
+.cart-dell:disabled{
+  opacity: .3;
+  pointer-events: none;
+}
+
+.btn-dell:hover,
+.btn-dell:focus-visible{
+  border: 2px solid #AF4FFF;
+}
 .cart-result {
   display: flex;
   gap: 10px;
