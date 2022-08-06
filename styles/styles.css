@@ -474,7 +474,7 @@
   align-items: center;
   padding-inline: 20px;
   border-color:#FFFFFF;
-  justify-content:space-between; 
+  justify-content:space-between;
 }
 
 .tooltip-item:active{
@@ -570,7 +570,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-}
+  }
 
 .cart-open {
   font-family: 'Raleway', sans-serif;
@@ -583,4 +583,19 @@
   height: 50px;
   background-color: #FFFFFF;
   cursor: pointer;
+  color: #000000;
+}
+
+.cart-open:active{
+color: #514e4eb9;
+}
+
+.cart-btn:hover{
+background-color: #FFE17F;
+}
+
+cart-btn:focus {
+  color: #000000;
+  border: 2px solid #AF4FFF;
+  background-color: #FFFFFF;
 }
